@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oi&family=Satisfy&display=swap');
+
+
+
+body{
+    margin: 1%;
+    overflow: hidden;
+}
+
+.general{
+    position: relative;
+    left: 3%;
+    top: 15%;
+    font-family: satisfy, sans-serif;
+}
+
+.mente{
+    position: relative;
+    font-family: roboto;
+    color: #aabf16;
+}
+
+.banner{
+    top: 2%;
+    position: absolute;
+    background: #e6e7df;
+    width: 98%;
+    height: 20%;
+    border: 2px solid gray;
+}
+
+.contenedor{
+    top: 23%;
+    position: absolute;
+    background: #aabf16;
+    width: 78%;
+    height: 80%;
+    border: 2px solid gray;
+}
+
+.text1{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    width: 40%;
+    height: 20%;
+    
+}
+
+.text2{
+    position: absolute;
+    top: 2%;
+    left: 58%;
+    width: 40%;
+    height: 20%;
+
+}
+
+.text3{
+    position: absolute;
+    top: 30%;
+    left: 2%;
+    width: 40%;
+    height: 40%;
+    
+}
+
+
+.fondo{
+    position: absolute;
+    top: 32%;
+    left: 35%;
+    width: 60%;
+    height: 62%;
+    /*position: relative;
+    top: 35vh;
+    left: 37vw;
+    width: 50%;
+    height: 50%;*/
+}
+
+.titulo{
+    color: white;
+}
+
+.parrafo{
+    color: white;
+    text-align: justify;
+}
+
+
+.contenedord{
+    left: 80%;
+    top: 23%;
+    position: absolute;
+    background: #aabf16;
+    width: 19%;
+    height: 20vh;
+    border: 2px solid gray;
+
+}
+
+.contenedords{
+    left: 80%;
+    top: 44%;
+    position: absolute;
+    background: #e6e7df;
+    width: 19%;
+    height: 40vh;
+    border: 2px solid gray;
+}

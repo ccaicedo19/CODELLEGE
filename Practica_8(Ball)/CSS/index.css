@@ -1,0 +1,51 @@
+body { 
+    background: #222; 
+}
+
+.pinball {
+    background-color: #d3ba30;
+    margin: 0 auto;
+    width: 700px;
+    height: 500px;
+    position: relative;
+    box-shadow: inset 0 0 3px #000;
+    border-radius: 5px;
+    border: 1px solid #111;
+    overflow: hidden;
+}
+
+.pinball span{
+        display: block;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        box-shadow: inset  2px 2px 2px black,  1px 1px 1px black;
+        background-color: #fd8422;
+        position: absolute;
+        animation: pinX 1.5s linear 0s infinite alternate, pinY 1.4s linear 0s infinite alternate;
+      
+}
+
+
+  @keyframes pinX {
+    0% { 
+        Left: 0; 
+        background-color: cornflowerblue;
+    } 100% { 
+        left: 620px; 
+        background-color: darkblue;
+    }
+  }
+
+  @keyframes pinY {
+    0% { 
+        top: 0; 
+        background-color: rgb(122, 18, 18);
+    } 100% { 
+        top: 420px; 
+        background-color: darkslategray;
+    }
+  }
+  
+
+
