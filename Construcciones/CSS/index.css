@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(255, 255, 255);
+}
+
+/* Creacion de Menu */ 
+
+.menu{
+    background: rgb(30,45,59);
+    width: 100vw;
+    height: 15%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo{
+    background: rgb(237,205,31);
+    position: absolute;
+    width: 30%;
+    height: 100%;
+}
+
+.logo_cons{
+    position: relative;
+    top: 30%;
+    left: 10%;
+}
+
+/* Banner y Video */
+
+.banner{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+.banner video{
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.banner h1{
+    position: absolute;
+    color: white;
+    margin: 0;
+    padding: 0;
+    top: 40%;
+    width: 50%;
+    left: 25%;
+    font-size: 60px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Servicios */
+
